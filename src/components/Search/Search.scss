@@ -1,0 +1,23 @@
+.searchSec{
+    z-index: 13;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 400px;
+    border-radius: 10px;
+   background-color: white;
+    color: black;
+    padding: 20px;
+    -webkit-box-shadow: 3px 3px 12px 0px rgba(186, 186, 186, 1);
+    -moz-box-shadow: 3px 3px 12px 0px rgba(186, 186, 186, 1);
+    box-shadow: 3px 3px 12px 0px rgba(186, 186, 186, 1);
+    display: flex;
+    flex-direction: column;
+    .searchText{
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 7px;
+        border-bottom: 1px solid gray;
+    }
+}
