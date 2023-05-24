@@ -1,0 +1,57 @@
+.contact{
+    background-color: black;
+    color: wheat;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    .wrapper
+    {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        input{
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px 0 0 5px;
+        }
+        button{
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            background-color: rgb(246, 92, 36);
+            color: white;
+            cursor: pointer;
+        }
+        .icons{
+            display: flex;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+}
+@media (max-width:1230px){
+    .contact{
+        .wrapper{
+            width: 70%;
+            // transform: scale(0.6);
+        }
+    }
+}
+@media (max-width:900px){
+    .contact{
+        .wrapper{
+            width: 90%;
+            // transform: scale(0.6);
+        }
+    }
+}
+@media (max-width:680px){
+    .contact{
+        .wrapper{
+            width: 100%;
+            // transform: scale(0.8);
+        }
+    }
+}
